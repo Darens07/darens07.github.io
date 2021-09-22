@@ -45,7 +45,7 @@
 #header .slicknav_nav a:hover,
 #header .slicknav_nav a:focus
 #header .slicknav_nav a:active{
-	color:#ED5F55;
+	color:#16A085;
 }
 #header .slicknav_nav a i{
 	margin-right:10px;
@@ -53,12 +53,12 @@
 }
 #header.sticky .slicknav_nav a{
 	color:#353535;
-}	
+}
 #header.sticky .slicknav_nav a:hover{
-	color:#ED5F55;
+	color:#16A085;
 }
 #header.sticky .slicknav_btn{
-	background:#ED5F55;
+	background:#16A085;
 	color:#fff;
 }
 #header .social-icon{
@@ -142,7 +142,7 @@
 }
 #header .nav {
 	display: none;
-}	
+}
 #personal-area.particle .personal-text {
 	padding: 0 40px;
 }
@@ -173,7 +173,7 @@
 #header .slicknav_nav a:hover,
 #header .slicknav_nav a:focus
 #header .slicknav_nav a:active{
-	color:#ED5F55;
+	color:#16A085;
 }
 #header .slicknav_nav a i{
 	margin-right:10px;
@@ -181,12 +181,12 @@
 }
 #header.sticky .slicknav_nav a{
 	color:#353535;
-}	
+}
 #header.sticky .slicknav_nav a:hover{
-	color:#ED5F55;
+	color:#16A085;
 }
 #header.sticky .slicknav_btn{
-	background:#ED5F55;
+	background:#16A085;
 	color:#fff;
 }
 #header .social-icon{
@@ -475,12 +475,6 @@
 }
 #about-me .skill-info h4 {
 	margin-bottom: 22px;
-}
-#about-me .progress .progress-bar span {
-	top: -13px;
-	width: 30px;
-	height: 30px;
-	line-height: 30px;
 }
 #portfolio .portfolio-nav ul li span{
 	display:none;

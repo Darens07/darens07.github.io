@@ -65,6 +65,11 @@ ul li {
     padding: 0;
 	list-style:none;
 }
+.text_dry{
+	font-style: italic;
+	font-size: 22px;
+	line-height: 24px;
+}
 .navbar {
     margin-bottom: 0;
     border: 0;
@@ -280,6 +285,13 @@ input:-webkit-autofill:focus {
 }
 #scrollUp:hover {
 	opacity:1;
+}
+#about-me .progress .progress-bar span {
+	top: -10px !important;
+	width: 28px !important;
+	height: 28px !important;
+	line-height: 28px !important;
+	font-size: 11px !important;
 }
 #breadcrumbs {
 	padding: 55px 0;
