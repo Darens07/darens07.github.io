@@ -3,7 +3,7 @@ Template Name: Meheraj
 Author Name: Shakil Hossain
 Description: Meheraj is a modern Creative Personal Portfolio Template, you can use this template for your own personal portfolio,CV,Resume purpouse.
 Version:	1.1
-========================================*/   
+========================================*/
 /*======================================
 [Start Activation Code]
 ========================================
@@ -27,11 +27,11 @@ Version:	1.1
 	* Preloader JS
 ========================================
 [End Activation Code]
-========================================*/ 
+========================================*/
 (function ($) {
 	"use strict";
     $(document).ready(function(){
-		
+
 		function Maheraz_Custom_JS() {
 			var windowS = $(window),
 				windowH = windowS.height(),
@@ -41,11 +41,11 @@ Version:	1.1
 				projecthoverS.css({
 				marginTop: -proejectdevide,
 			});
-		}; 
-		
+		};
+
 		/*====================================
 		//  Onepage Nav
-		======================================*/ 
+		======================================*/
 		if ($.fn.onePageNav) {
 			$('.mainmenu .nav').onePageNav({
 				currentClass: 'active',
@@ -53,10 +53,10 @@ Version:	1.1
 				easing: 'easeInOutQuart'
 			});
 		}
-		
+
 		/*====================================
 		// Sticky JS
-		======================================*/ 
+		======================================*/
 		jQuery(window).on('scroll', function() {
 			if ($(this).scrollTop() > 1) {
 				$('#header').addClass("sticky");
@@ -64,37 +64,29 @@ Version:	1.1
 				$('#header').removeClass("sticky");
 			}
 		});
-			
+
 		/*====================================
 		// 	Mobile Menu
-		======================================*/ 	
+		======================================*/
 		$('.menu').slicknav({
 			prependTo:".mobile-nav",
 			closeOnClick:true,
 		});
-		
+
 		/*====================================
 		// 	Social JS
-		======================================*/ 	
+		======================================*/
 		$('.social-icon li a').on( "click", function(){
 			$('.social').toggleClass('active');
 		});
 		
-		
-		/*====================================
-		// Service Hover
-		======================================*/ 
-		$('.single-service').on('mouseenter', function(){
-			$(' .single-service').removeClass('active');
-			$(this).addClass('active');
-		});
-		
+
 		/*====================================
 		// Isotop Active
 		======================================*/
 		$(window).on('load', function() {
-			Maheraz_Custom_JS();		
-			
+			Maheraz_Custom_JS();
+
 			if ($.fn.isotope) {
                 $(".isotop-active").isotope({
                     filter: '*',
@@ -117,17 +109,17 @@ Version:	1.1
                 });
             }
 		});
-		
+
 		/*====================================
 			Counter JS
-		======================================*/ 
+		======================================*/
 		$('.count').counterUp({
 			time: 1000
 		});
-		
+
 		/*====================================
 		// Testimonial Carousel
-		======================================*/ 	
+		======================================*/
 		$(".testimonial-carousel").owlCarousel({
 			loop:true,
 			autoplay:false,
@@ -139,11 +131,11 @@ Version:	1.1
 			dots:false,
 			items: 1,
 			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
-		});	
-		
+		});
+
 		/*====================================
 		// Blog Carousel
-		======================================*/ 	
+		======================================*/
 		$(".blog-carousel").owlCarousel({
 			loop:true,
 			autoplay:false,
@@ -166,11 +158,11 @@ Version:	1.1
 					items: 3,
 				},
 			}
-		});	
-		
+		});
+
 		/*====================================
 		// Blog Slider
-		======================================*/ 	
+		======================================*/
 		$("#blog .slide").owlCarousel({
 			loop:true,
 			autoplay:true,
@@ -198,12 +190,12 @@ Version:	1.1
 					items: 1,
 				},
 			}
-		});	
-		
-		
+		});
+
+
 		/*====================================
 		// clients Carousel
-		======================================*/ 	
+		======================================*/
 		$(".clients-slider").owlCarousel({
 			loop:true,
 			autoplay:false,
@@ -225,36 +217,36 @@ Version:	1.1
 					items: 5,
 				},
 			}
-		});	
-		
+		});
+
 		/*====================================
 			Wow JS
-		======================================*/		
-		var window_width = $(window).width();   
+		======================================*/
+		var window_width = $(window).width();
 			if(window_width > 767){
             new WOW().init();
 		}
-		
+
 		/*======================================
 		// Parallax JS
-		======================================*/ 
+		======================================*/
 		 $(window).stellar({
             responsive: true,
             positionProperty: 'position',
             horizontalScrolling: false
         });
-		
-		
+
+
 		/*====================================
 		// 	Side Navigation
-		======================================*/ 	
+		======================================*/
 		$('.side-icon a').on( "click", function(){
 			$('#header').toggleClass('active');
 		});
-		
+
 		/*====================================
 		// Personal Slider
-		======================================*/ 	
+		======================================*/
 		$(".personal-main.slide").owlCarousel({
 			loop:true,
 			autoplay:true,
@@ -267,11 +259,11 @@ Version:	1.1
 			nav:false,
 			dots:true,
 			items: 1,
-		});	
-		
+		});
+
 		/*====================================
 		// Portfolio Single
-		======================================*/ 	
+		======================================*/
 		$(".portfolio-single.slider").owlCarousel({
 			loop:true,
 			autoplay:true,
@@ -283,11 +275,11 @@ Version:	1.1
 			navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>', '<i class="fa fa-angle-right" aria-hidden="true"></i>'],
 			dots:false,
 			items: 1,
-		});	
-		
+		});
+
 		/*====================================
 		// Related Portfolio
-		======================================*/ 
+		======================================*/
 		$(".portfolio-related").owlCarousel({
 			loop:true,
 			autoplay:true,
@@ -311,34 +303,34 @@ Version:	1.1
 					items: 3,
 				},
 			}
-		});	
+		});
 
-		
+
 		/*====================================
 		Extra JS
 		======================================*/
 		$('.btn, .arrow a, .slicknav_menu li a').on('click', function(event) {
 			var $anchor = $(this);
 			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 20 
+				scrollTop: $($anchor.attr('href')).offset().top - 20
 			}, 1000, 'easeInOutQuart');
 			event.preventDefault();
 		});
-		
-		
+
+
 		/*====================================
 			Video Background
 		======================================*/
-		$('.player').mb_YTPlayer();		
-		
+		$('.player').mb_YTPlayer();
+
     });
-	
+
 	/*======================================
 	// Preloader
-	======================================*/ 	
+	======================================*/
 		$(window).load(function(){
 				$('.loader').fadeOut('slow', function(){
 				$(this).remove();
 			});
 		});
-})(jQuery);	
+})(jQuery);

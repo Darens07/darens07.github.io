@@ -48,9 +48,6 @@
 #about-me .social ul li:hover a,
 #about-me .progress .progress-bar,
 #about-me .progress .progress-bar span,
-#my-service .single-service:hover,
-#my-service .single-service.active,
-#my-service .single-service:before,
 #portfolio .portfolio-nav ul li.active,
 #portfolio .portfolio-nav ul li:hover,
 #portfolio .portfolio-nav ul li span,
@@ -117,4 +114,13 @@
 #contact .form-group input:focus,
 #contact .form-group textarea:hover{
 	border-color:#16A085;
+}
+
+
+.two-style, .two-style p{
+	color: #353535 !important;
+}
+
+.two-style, .two-style i, .two-style h2{
+	color: #16A085 !important;
 }
